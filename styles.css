@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html
+body {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  font-size: large;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    font-size: larger;
+    text-align: center;
+}
+.second h2{
+  margin: 20px 0;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+nav{
+    background-color: rgb(221, 103, 6);
+}
+
+nav img{
+    width: 8%;
+    margin: 0px 0;
+    position: absolute;
+    right: 20px;
+}
+
+ul{ 
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+li{ 
+    list-style: none;
+    line-height: 3em;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+aside img{
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+aside{
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  background-color: rgb(158, 175, 231);
+}
+
+
+div.left{
+  height: 300px;
+	width: 400px;
+	background-repeat: no-repeat;
+	position: relative;
+	float:left;
+	margin-right:40px;
+}
+div.middle{
+  height: 300px;
+	width: 400px;
+	background-repeat: no-repeat;
+	position: relative;
+	float:left;
+	margin-right:40px;
+}
+div.right{
+  height: 300px;
+	width: 400px;
+	background-repeat: no-repeat;
+	position: relative;
+	float:left;
+	margin-right:40px;
+}  
+  
+@media screen and (min-width: 200px) and (max-width: 480px){
+  header h1{
+    padding: .25em;
+    text-align: center;
+}
+ nav{
+    font-size: 1.3em;
+    width: 80%;
+    margin: 0 auto;
+}
+ nav ul{
+    margin: 0;
+    padding: .1em;
+}
+ nav li{
+    background-color: aqua;
+    border-radius: 1em;
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+    
+}
+ nav a{
+    padding: .8em;
+    display: inline-block;
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+  header h1{
+      padding: .6em;
+      text-align: center;
+  }
+  nav{
+      background-color: rgb(231, 140, 49);
+      font-size: 1.4em;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+  }
+  nav ul{
+      margin: 0;
+      padding: 0;
+  }
+  nav li{
+      display: inline;
+  }
+  nav a{
+      display: inline-block;
+      padding: 1em;
+      text-decoration: none;
+  }
+}
+
+p{
+  text-align: justify;
+}
+br{
+  text-align: right;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440){
+  header{
+      padding: .35em;
+      width: 100%;
+      overflow: hidden;
+  }
+  header h1{
+      display: inline;
+  }
+  nav{
+      float: right;
+  }
+  nav ul{
+      margin: 0;
+      display: inline;
+      padding-right: .15em;
+  }
+  nav ul li{
+      display: inline-block;
+      list-style-type: none;
+  }
+  nav ul li a{
+      text-decoration: none;
+      padding: 1em;
+      display: block;
+      color: white;
+      font-size: 1.2em;
+      line-height: 2em;
+  }
+}                 
+#text{
+  font-size: large;
+}
